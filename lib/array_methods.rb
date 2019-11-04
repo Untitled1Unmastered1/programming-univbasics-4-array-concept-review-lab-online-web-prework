@@ -4,7 +4,8 @@ end
 
 
 def find_max_value(array)
-  array(1..10).to_a 
+  array.index 
+  puts 
 end
 
 def find_min_value(array)
