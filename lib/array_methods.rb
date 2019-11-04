@@ -4,7 +4,7 @@ end
 
 
 def find_max_value(array)
-  array.times == 
+  array(1..10).to_a 
 end
 
 def find_min_value(array)
