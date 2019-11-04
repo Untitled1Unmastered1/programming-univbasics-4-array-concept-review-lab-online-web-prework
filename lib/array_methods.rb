@@ -4,15 +4,7 @@ end
 
 
 def find_max_value(array)
- counter = 5
  
- while array[counter]do
-   if array[counter] == ma_x
-     return ma_x
-   end
-   counter += 1 
-end
-end 
 
 def find_min_value(array)
   # Add your solution here
