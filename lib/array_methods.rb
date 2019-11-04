@@ -4,12 +4,10 @@ end
 
 
 def find_max_value(array)
- array.reverse 
- puts array[0]
- end
- 
- 
-   
+ array.sort = find_max_value_sort 
+ find_max_value_sort.reverse
+ puts find_max_value_sort[0]
+end
    
 
 def find_min_value(array)
