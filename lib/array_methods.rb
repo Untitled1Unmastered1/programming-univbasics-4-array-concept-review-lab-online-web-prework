@@ -4,8 +4,13 @@ end
 
 
 def find_max_value(array)
-  array.index 
-  puts 
+ counter = 5
+ 
+ while array[counter]do
+   if array[counter] == ma_x 
+     return counter
+   end
+   counter += 1 
 end
 
 def find_min_value(array)
