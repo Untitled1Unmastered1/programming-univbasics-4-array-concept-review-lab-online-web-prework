@@ -7,8 +7,8 @@ def find_max_value(array)
  counter = 5
  
  while array[counter]do
-   if array[counter] == ma_x 
-     return counter
+   if array[counter] == ma_x
+     return ma_x
    end
    counter += 1 
 end
