@@ -1,6 +1,11 @@
 def find_element_index(array, value_to_find)
-  array.times value_to_find |a|
-  return value_to_find[a]
+  counter = 0
+  
+  if array.times >= counter do 
+    value_to_find = counter
+    counter += 1 
+end
+    return value_to_find
 end
 
 
