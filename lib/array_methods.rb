@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-  array(1..10).to_a value_to_find
+  puts array[1] >= value_to_find
   return value_to_find
 end
 
